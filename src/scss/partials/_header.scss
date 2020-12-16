@@ -1,0 +1,40 @@
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo,
+    .head-menu{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        
+        img{
+        margin-right: 5px;
+        }
+    }  
+}
+.top-menu{
+    border-bottom: 1px solid #3c4043;
+    
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+            margin: 0 20px 10px 20px;
+           
+        }
+
+        a{
+            text-decoration: none;
+            color: #3c4043;
+            &:hover{
+                border-bottom: 3px solid blue;
+                color: blue;
+            }
+        }
+    }
+}
